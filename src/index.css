@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05070d;
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #ffffff;
+  }
+}
+
+.font-speed {
+  font-family: 'Orbitron', monospace, sans-serif;
+}
+
+.font-gauge {
+  font-family: 'Teko', sans-serif;
+}
+
+.font-ui {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom glow helpers */
+.text-neon-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+.text-neon-pink {
+  text-shadow: 0 0 10px rgba(236, 72, 153, 0.7), 0 0 20px rgba(236, 72, 153, 0.4);
+}
+.text-neon-amber {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.7), 0 0 20px rgba(245, 158, 11, 0.4);
+}
+.drop-shadow-neon {
+  filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6));
+}

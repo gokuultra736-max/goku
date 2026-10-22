@@ -1,0 +1,8 @@
+{
+  "name": "Remix Tokyo Horizon: Shuto Express",
+  "description": "Hyperrealistic 3D open-world supercar racing through Tokyo with dynamic day-night cycle, realistic CarX-style weather, and supercars including the Bugatti Bolide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
